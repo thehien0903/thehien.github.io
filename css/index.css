@@ -1,0 +1,137 @@
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(233, 49%, 7%, 0.995);
+}
+
+.Container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 30px;
+    display: flex;
+    padding-right: 50px;
+    transform: translateY( 50px) ;
+    -webkit-transform: translateY( 50px) ;
+    -moz-transform: translateY( 50px) ;
+    -ms-transform: translateY( 50px) ;
+    -o-transform: translateY( 50px) ;
+}
+.Container .All_Content{
+    width: 100%;
+    background-color: hsl(244, 38%, 16%);
+    padding-right: 50px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.Container .Content_BD1{
+    width: 100%;
+    margin: 56px 0px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+.Container .Content_BD2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px ;
+    padding-bottom: 50px;
+}
+
+
+.Container .P1{
+    color:  hsl(0, 0%, 100%);
+    font-size:  60px;
+
+}
+.Container .Content_BD1 .P1 span{
+    color:  hsl(277, 64%, 61%);
+}
+
+.Container  .P2{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 50px;
+    line-height: 40px;
+    font-size: 25px;
+
+}
+
+.Container  .P3{
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.Container .P4{
+    color: white;
+    font-size: 25px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.Container .Content_BD3{
+   position: relative;
+   width: 100%;
+
+}
+
+.Container .Content_BD3 .Violet{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 64%, 61%, 0.626);
+    z-index: 1000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media screen and (max-width: 1440px){
+
+.Container{
+    -webkit-transform: translateY(100px);
+}
+
+.Container .Content_BD2{
+    padding-top: 0px;
+    padding-left: 10px;
+}
+.Container  .P2{
+    padding-right: 0px;
+    font-size: 22px;
+}
+.Container  .P1{
+    font-size: 49px;
+}
+}
+
+@media screen and (max-width: 375px){
+}
+
+@media screen and (max-width: 1200px){
+.Container{
+    padding: 0px 50px;
+}
+.Container .Content_BD1{
+    padding-left: 60px;
+}
+
+.Container .P1{
+    font-size: 40px;
+}
+
+.Container .P2{
+    font-size: 17px;
+    padding-right: 50px;
+}
+
+.Container .Content_BD2{
+    padding-bottom: 50px;
+}
+
+}
