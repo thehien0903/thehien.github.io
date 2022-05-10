@@ -111,6 +111,9 @@ img{
 }
 
 @media screen and (max-width: 375px){
+    .Container {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -134,4 +137,23 @@ img{
     padding-bottom: 50px;
 }
 
+}
+
+@media screen and (max-width: 768px){
+    .Container .All_Content{
+        padding-right: 20px;
+    }
+    .Container .P1{
+        font-size: 25px;
+    }
+    .Container .P2{
+        padding-right: 0px;
+        font-size: 20px;
+    }
+    .Container .Content_BD2{
+        padding-left: 50px;
+    }
+    .Container {
+        padding: 60px 50px;
+    }
 }
